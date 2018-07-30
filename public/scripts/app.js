@@ -20,10 +20,10 @@ $(document).ready(function() {
     const $itemAdded = $('<li>').text($name.text())
     const itemQuantity = $(this).siblings('#quantity').val() //set to change back to one
 
-    var order =
+    const order =
       {Quantity: itemQuantity, foodId: itemId, name: $name.text(), price: $price}
 
-      var cookie = Cookies.getJSON('cart');
+      const cookie = Cookies.getJSON('cart');
         cookie.push(order);
         Cookies.set('cart', cookie);
 
