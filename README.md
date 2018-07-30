@@ -33,9 +33,9 @@ Twilio API (modern telecomm API service) was used to allow text message or audio
 
 
 ## Screenshots
-![https://github.com/HypnoMama/Food-Pickup-Ordering-App/blob/master/Screenshots/Hungry-Hippo.png?raw=true]
-![https://github.com/HypnoMama/Food-Pickup-Ordering-App/blob/master/Screenshots/Hungry-Hippo2.png?raw=true]
-![https://github.com/HypnoMama/Food-Pickup-Ordering-App/blob/master/Screenshots/Hungry-Hippo3.png?raw=true]
+![Screenshot](https://github.com/HypnoMama/Food-Pickup-Ordering-App/blob/master/Screenshots/Hungry-Hippo.png?raw=true)
+![Screenshot](https://github.com/HypnoMama/Food-Pickup-Ordering-App/blob/master/Screenshots/Hungry-Hippo2.png?raw=true)
+![Screenshot](https://github.com/HypnoMama/Food-Pickup-Ordering-App/blob/master/Screenshots/Hungry-Hippo3.png?raw=true)
 
 ## Dependencies
 
