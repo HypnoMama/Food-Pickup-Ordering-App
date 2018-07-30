@@ -134,15 +134,16 @@ app.post("/orderSend", (req, res) => {
             from: +'17784028085',
             body: 'Your Hungry Hippo order has been received!'
           })
+          .done();
 
   res.end();
 })
 
 
 
-function orderReady(body) {
+const orderReady = (body) => {
   const orderId = body.replace(/\D/g, '');
-  var phone = null;
+  let phone = null;
 
   for (let i = 0; i < customer.length; i++) {
     if (customer[i].orderId === orderId) {
